@@ -1,0 +1,34 @@
+interface gráfica - projeto gerador de senha :
+
+#LINKS :
+- Biblioteca: Python Tkinte
+https://docs.python.org/pt-br/3/library/tkinter.html
+https://www.youtube.com/watch?v=AiBC01p58oI
+https://awari.com.br/python-tkinter-aprenda-a-instalar-e-utilizar-essa-poderosa-biblioteca-de-interface-grafica/
+
+#CODE BASIC :
+import tkinter as tk
+
+# Cria a janela raiz do programa
+janela = tk.Tk()
+# define o titulo da janela
+janela.title("Titulo da minha janela")
+# tamanho da janela
+janela.geometry("500x200")
+# previne que o usuário altere o tamanho da janela
+janela.resizable(width=False, height=False)
+
+# função que será chamada quando o botão abaixo for clicado,
+# isso por conta do parametro 'command=clique_botao'
+def clique_botao():
+    print("Botão clicado!")
+
+# cria um botão
+botao = tk.Button(janela, text="Clique Aqui", command=clique_botao)
+# adiciona o botão criado a janela 
+botao.pack()
+
+
+
+# inicializa a janela
+janela.mainloop()

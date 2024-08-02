@@ -1,0 +1,21 @@
+valor = int(input('Digite um valor para ver sua tabuada:'))
+x2 = valor * 2
+x3 = valor * 3 
+x4 = valor * 4
+x5 = valor * 5
+x6 = valor * 6
+x7 = valor * 7
+x8 = valor * 8
+x9 = valor * 9
+x10 = valor * 10
+
+print(f'O valor de {valor} x 1 é = {valor}')
+print(f'O valor de {valor} x 2 é = {x2}')
+print(f'O valor de {valor} x 3 é = {x3}')
+print(f'O valor de {valor} x 4 é = {x4}')
+print(f'O valor de {valor} x 5 é = {x5}')
+print(f'O valor de {valor} x 6 é = {x6}')
+print(f'O valor de {valor} x 7 é = {x7}')
+print(f'O valor de {valor} x 8 é = {x8}')
+print(f'O valor de {valor} x 9 é = {x9}')
+print(f'O valor de {valor} x 10 é = {x10}')

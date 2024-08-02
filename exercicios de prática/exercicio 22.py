@@ -1,0 +1,5 @@
+nome = str(input('Digite o seu nome copmpleto:'))
+print(nome)
+print(nome.upper())
+print(nome.lower())
+print(len(nome))
